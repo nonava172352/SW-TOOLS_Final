@@ -1,8 +1,8 @@
-# การติดตั้งใช้งาน Backend
-### 1. ขั้นตอนแรก Dowload Dependencies
+# การใช้งาน Backend
+### 1. Dowload Dependencies
 npm install 
 
-### 2. รันคำสั่ง เพื่อเปิดการทำงาน RESTAPI
+### 2. รันคำสั่ง
 npm run start
 
 
