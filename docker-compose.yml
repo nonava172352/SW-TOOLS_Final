@@ -3,17 +3,17 @@ version: '3.7'
 services:
   app:
     container_name: frontend
-    image: flukgoza/team-7-frontend:1.2.0
+    image: non/frontend:1.2.0
     restart: always
-    build: ./project_dev-tools_frontend
+    build: ./frontend
     ports: ['8660:8660']
   back:
     # depends_on:
     #   - mongodb
-    container_name: team-7-backend
-    image: flukgoza/team-7-backend:1.1.3
+    container_name: backend
+    image: non/backend:1.1.3
     restart: always
-    build: ./project_dev-tools_server
+    build: ./server
     ports: ['1111:1111']
   
     # environment:
