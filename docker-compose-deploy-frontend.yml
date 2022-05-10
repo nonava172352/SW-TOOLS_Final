@@ -2,6 +2,6 @@ version: '3.7'
 
 services:
   frontend:
-    image: non/frontend:1.2.0
+    image: non/frontend
     ports:
-      - "8660:8660"
+      - "8080:8080"
